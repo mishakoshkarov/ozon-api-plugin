@@ -1,0 +1,13 @@
+{
+  "name": "ozon-kurs",
+  "description": "Плагины курса: подключение Claude Code к Ozon Seller API и Performance API",
+  "owner": { "name": "Михаил Кошкарёв" },
+  "plugins": [
+    {
+      "name": "ozon-api",
+      "description": "Чтение данных своего магазина Ozon прямо из чата: товары, остатки FBO/FBS, заказы, воронка, контент карточек, реклама",
+      "source": "./plugins/ozon-api",
+      "category": "productivity"
+    }
+  ]
+}
