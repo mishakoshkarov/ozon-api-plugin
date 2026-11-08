@@ -1,12 +1,20 @@
 {
-  "name": "ozon-kurs",
-  "description": "Плагины курса: подключение Claude Code к Ozon Seller API и Performance API",
-  "owner": { "name": "Михаил Кошкарёв" },
+  "name": "mp-kurs",
+  "description": "Плагины курса: подключение Claude Code к API Ozon и Wildberries",
+  "owner": {
+    "name": "Михаил Кошкарёв"
+  },
   "plugins": [
     {
       "name": "ozon-api",
       "description": "Чтение данных своего магазина Ozon прямо из чата: товары, остатки FBO/FBS, заказы, воронка, контент карточек, реклама",
       "source": "./plugins/ozon-api",
+      "category": "productivity"
+    },
+    {
+      "name": "wb-api",
+      "description": "Чтение данных своего магазина Wildberries прямо из чата: карточки и контент, остатки, заказы, выкупы, воронка, реклама, финансовый отчёт",
+      "source": "./plugins/wb-api",
       "category": "productivity"
     }
   ]
